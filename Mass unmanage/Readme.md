@@ -8,4 +8,7 @@ And (once the service impacting work has finished on the Orion servers) the thir
 
 On our system with about 1500 monitored devices the 2nd and 3rd scripts take ~10 minutes to run.
 
-You will need to update the variables for the orion.fqdn, username and password to match your Orion system.
+In each script you will need to update the following variables to match your Orion system:
+$server = 'orion.fqdn'
+$user = "username"
+$password ="password"
